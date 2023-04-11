@@ -39,7 +39,7 @@ const Slide = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-white md:p-5 md:h-32 h-[88px] rounded-xl">
+            <div className="bg-white md:p-5 md:h-32 sm:h-[120px] rounded-xl">
               <img src={iom} alt="" />
             </div>
           </SwiperSlide>
