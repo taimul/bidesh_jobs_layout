@@ -102,7 +102,7 @@ const Hero = () => {
           }}
           navigation={true}
           modules={[Autoplay, Navigation]}
-          className="mySwiper order-1 lg:order-2"
+          className="mySwiper order-1 lg:order-2 bg-white"
         >
           <SwiperSlide>
             <img src={image0} alt="" />
@@ -126,6 +126,7 @@ const Hero = () => {
             <img src={image5} alt="" />
           </SwiperSlide>
         </Swiper>
+
         <div class="w-full order-1 sm:order-1 lg:hidden block bg-white p-5">
           <div className="flex justify-between container mx-auto item">
             <div className="text-center">
