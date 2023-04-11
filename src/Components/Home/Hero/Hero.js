@@ -15,6 +15,7 @@ import image5 from "../../../Assets/slide-05.jpg";
 import bg1 from "../../../Assets/banner-bg-l.png";
 import bg2 from "../../../Assets/banner-bg-r.png";
 import submitBio from "../../../Assets/submit_biodata.png";
+import "./Hero.css";
 
 const Hero = () => {
   return (
@@ -94,7 +95,7 @@ const Hero = () => {
         </div>
         {/* slider */}
         <Swiper
-          spaceBetween={30}
+          spaceBetween={0}
           centeredSlides={true}
           autoplay={{
             delay: 3500,
@@ -112,9 +113,6 @@ const Hero = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src={image2} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={image3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={image3} alt="" />

@@ -55,7 +55,7 @@ const Header = () => {
       <div className="navbar container mx-auto max-w-6xl">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost  lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -73,36 +73,45 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white rounded-box w-80"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li tabIndex={0}>
-                <a href="/" className="justify-between">
-                  Parent
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
+              <li className="mr-4 ">
+                <a href="/" className="flex items-center">
+                  <FaUserCircle className="text-blue-700 mr-1 text-lg" />
+                  <span className=" text-blue-400">
+                    সাইন ইন / অ্যাকাউন্ট তৈরি
+                  </span>
                 </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
               </li>
               <li>
-                <a>Item 3</a>
+                <a href="/" className="flex items-center text-gray-900 mb-10">
+                  <FaPhone className=" mr-1" />
+                  <span className="">যোগাযোগ</span>
+                </a>
               </li>
+              <hr />
+
+              <li className="mt-10 text-black">
+                <a href="https://bdjobs.com/">বিডিজবস্</a>
+              </li>
+              <li className="text-black">
+                <a href="jobsearchbn.com">চাকরির খবর</a>
+              </li>
+              <li className="text-black">
+                <a href="https://bdjobs.com/">চাকরিপ্রার্থীর একাউন্ট</a>
+              </li>
+              <li className="text-black mb-7">
+                <a href="https://bdjobs.com/">
+                  নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা{" "}
+                </a>
+              </li>
+              <hr />
+              <h1 className="text-center text-black mt-10">
+                Switch to english
+              </h1>
+              <div className="mx-auto mt-32">
+                <img src={jointVenture} alt="" />
+              </div>
             </ul>
           </div>
           <button className="hidden sm:block">

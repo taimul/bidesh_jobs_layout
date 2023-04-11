@@ -26,12 +26,14 @@ const Footer = () => {
             <a className="link link-hover">চাকরি পোস্ট</a>
             <a className="link link-hover">প্রশ্নাবলী</a>
           </div>
-          <div className="mx-auto">
+          <div className="mx-auto ">
             <span className="footer-title text-black">
               টুলস ও সামাজিক মিডিয়া
             </span>
-            <a className="link link-hover">Download Mobile App</a>
-            <a className="link link-hover">
+            <a className="link link-hover mx-auto sm:mx-0">
+              Download Mobile App
+            </a>
+            <a className="link link-hover mx-auto sm:mx-0">
               <img
                 src="https://bdesh.bdjobs.com/images/google-play-badge.svg"
                 alt=""

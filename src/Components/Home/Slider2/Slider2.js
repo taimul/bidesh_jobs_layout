@@ -56,6 +56,12 @@ const Slider2 = () => {
       name: "ডেনমার্ক",
     },
   ];
+  const paginationStyles = {
+    color: "red",
+    display: "flex",
+    justifyContent: "center",
+    marginBottom: "20px",
+  };
   return (
     <div
       className="h-80 "
@@ -65,7 +71,7 @@ const Slider2 = () => {
     >
       <div className="bg-[#19A094] opacity-80 h-full">
         <div>
-          <h1 className="text-center text-2xl dark:text-white bg-[#19A094] opacity-80 p-10">
+          <h1 className="text-center text-2xl text-white p-10">
             বিভিন্ন দেশের চাকরি
           </h1>
           <Swiper
@@ -74,8 +80,9 @@ const Slider2 = () => {
             pagination={{
               clickable: true,
             }}
+            paginationStyle={paginationStyles}
             breakpoints={{
-              365: {
+              320: {
                 slidesPerView: 2,
                 spaceBetween: 10,
               },
@@ -89,7 +96,7 @@ const Slider2 = () => {
               },
             }}
             modules={[Pagination]}
-            className="mySwiper container mx-auto max-w-6xl cursor-pointer"
+            className="mySwiper container mx-auto max-w-6xl cursor-pointer "
           >
             <div className="">
               {data.map((datas) => (

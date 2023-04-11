@@ -60,9 +60,45 @@ const Categories = () => {
         <div className="lg:flex">
           <div className="md:w-4/5">
             {activeButton === "button1" ? <Content1 /> : <Content2 />}
+            <div className="grid md:grid-cols-2 gap-5 mt-5 ">
+              <div className="bg-[#036DC5] bg-no-repeat rounded-lg md:h-40 overflow-hidden">
+                <div className="flex p-5">
+                  <div className="w-1/3">
+                    <img src={bg1} alt="" className="" />
+                  </div>
+                  <div className="w-2/3">
+                    <p className="text-sm text-white mb-2">
+                      হাজারো চাকরির মাঝে আপনার পছন্দের চাকরি খুঁজে আবেদন করতে
+                      জয়েন করুন আমাদের সাইটে।
+                    </p>
+                    <button className="w-32 h-10 bg-[#FFDC79] text-black rounded-lg text-xs font-bold">
+                      একাউণ্ট খুলুন
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#036DC5] bg-no-repeat rounded-lg md:h-40 overflow-hidden">
+                <div className="flex p-5">
+                  <div className="w-1/3">
+                    <img src={bg2} alt="" className="" />
+                  </div>
+                  <div className="w-2/3">
+                    <h4 className="text-white mb-2">
+                      বায়োডাটা তৈরি করতে চান?
+                    </h4>
+                    <p className="text-sm text-white mb-2">
+                      সহজ কয়েকটি ধাপে এখনই স্বল্প সময়েই তৈরি করুন আপনার সিভি
+                    </p>
+                    <button className="w-32 h-10 bg-[#FFDC79] text-black rounded-lg text-xs font-bold">
+                      একাউণ্ট খুলুন
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="md:w-1/5">
-            <div className=" bg-white h-fit mt-5 ml-4 rounded-lg p-3">
+            <div className=" bg-white h-fit mt-5 md:ml-4 rounded-lg p-3">
               <h4 className="text-black font-bold text-xs">
                 বিদেশ জবস্ এর গাইডলাইন
               </h4>
@@ -146,7 +182,7 @@ const Categories = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-white h-fit mt-5 ml-4 rounded-lg p-3">
+            <div className="bg-white h-fit mt-5 md:ml-4 rounded-lg p-3">
               <h4 className="text-black font-bold text-xs">
                 সরকারি গুরুত্বপূর্ণ লিংক সমূহ
               </h4>
@@ -168,40 +204,6 @@ const Categories = () => {
                   প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 lg:w-4/5 lg:mt-[-48px] gap-5 mt-5 ">
-          <div className="bg-[#036DC5] bg-no-repeat rounded-lg md:h-40 overflow-hidden">
-            <div className="flex p-5">
-              <div className="w-1/3">
-                <img src={bg1} alt="" className="" />
-              </div>
-              <div className="w-2/3">
-                <p className="text-sm text-white mb-2">
-                  হাজারো চাকরির মাঝে আপনার পছন্দের চাকরি খুঁজে আবেদন করতে জয়েন
-                  করুন আমাদের সাইটে।
-                </p>
-                <button className="w-32 h-10 bg-[#FFDC79] text-black rounded-lg text-xs font-bold">
-                  একাউণ্ট খুলুন
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="bg-[#036DC5] bg-no-repeat rounded-lg md:h-40 overflow-hidden">
-            <div className="flex p-5">
-              <div className="w-1/3">
-                <img src={bg2} alt="" className="" />
-              </div>
-              <div className="w-2/3">
-                <h4 className="text-white mb-2">বায়োডাটা তৈরি করতে চান?</h4>
-                <p className="text-sm text-white mb-2">
-                  সহজ কয়েকটি ধাপে এখনই স্বল্প সময়েই তৈরি করুন আপনার সিভি
-                </p>
-                <button className="w-32 h-10 bg-[#FFDC79] text-black rounded-lg text-xs font-bold">
-                  একাউণ্ট খুলুন
-                </button>
-              </div>
             </div>
           </div>
         </div>

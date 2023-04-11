@@ -14,6 +14,7 @@
 
 .swiper-slide {
   text-align: center;
+  margin-right: 0px;
 
   /* Center slide text vertically */
   display: flex;
@@ -26,6 +27,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff0000; /* change to your desired color */
+}
+.swiper-pagination-bullet {
+  background-color: #ff0000; /* change to your desired color */
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,20 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #f3f3f3; /* change to your desired color */
+  background-color: rgb(100, 102, 104);
+  opacity: 80%;
+}
+
+.swiper-button-next:hover {
+  color: #f3f3f3; /* change to your desired color */
+  background-color: rgb(178, 182, 185);
+  opacity: 100%;
+}
+.swiper-button-prev:hover {
+  color: #f3f3f3; /* change to your desired color */
+  background-color: rgb(178, 182, 185);
+  opacity: 100%;
+}
+.swiper-pagination-bullet {
+  background-color: #ffffff; /* change to your desired color */
+}
