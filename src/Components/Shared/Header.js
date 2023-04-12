@@ -12,18 +12,16 @@ const Header = () => {
               <div className="flex-1">
                 <ul className="flex space-x-6">
                   <li>
-                    <a href="https://bdjobs.com/">বিডিজবস্</a>
+                    <a href="/">বিডিজবস্</a>
                   </li>
                   <li>
-                    <a href="jobsearchbn.com">চাকরির খবর</a>
+                    <a href="/">চাকরির খবর</a>
                   </li>
                   <li>
-                    <a href="https://bdjobs.com/">চাকরিপ্রার্থীর একাউন্ট</a>
+                    <a href="/">চাকরিপ্রার্থীর একাউন্ট</a>
                   </li>
                   <li>
-                    <a href="https://bdjobs.com/">
-                      নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা{" "}
-                    </a>
+                    <a href="/">নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা </a>
                   </li>
                 </ul>
               </div>
@@ -92,18 +90,16 @@ const Header = () => {
               <hr />
 
               <li className="mt-10 text-black">
-                <a href="https://bdjobs.com/">বিডিজবস্</a>
+                <a href="/">বিডিজবস্</a>
               </li>
               <li className="text-black">
-                <a href="jobsearchbn.com">চাকরির খবর</a>
+                <a href="/">চাকরির খবর</a>
               </li>
               <li className="text-black">
-                <a href="https://bdjobs.com/">চাকরিপ্রার্থীর একাউন্ট</a>
+                <a href="/">চাকরিপ্রার্থীর একাউন্ট</a>
               </li>
               <li className="text-black mb-7">
-                <a href="https://bdjobs.com/">
-                  নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা{" "}
-                </a>
+                <a href="/">নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা </a>
               </li>
               <hr />
               <h1 className="text-center text-black mt-10">
